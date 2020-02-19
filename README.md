@@ -7,10 +7,6 @@ This is a graph visualization that shows a sample of the movement of refugees th
 
 
 Python libraries needed:
-math
-numpy
-pandas
-plotly.graph_objects   (You will need plotly if you don't have it)
-
+math, numpy, pandas, plotly.graph_objects   (You will need plotly if you don't have it)
 
 Note: The application can take a bit of time to load, stay patient :)
