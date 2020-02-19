@@ -4,11 +4,11 @@ import numpy as np
 import math
 
 #read in a list of all countries
-countries = pd.read_csv('https://raw.githubusercontent.com/jerguy1928/refugee_map/master/country_centroid_locations.csv')
+countries = pd.read_csv('https://raw.githubusercontent.com/jerguy1928/refugee_map/master/Country_centroid_locations.csv')
 countries.head()
 
 #read in a list of refugee movements
-travel_paths = pd.read_csv('https://raw.githubusercontent.com/jerguy1928/refugee_map/master/movements.csv')
+travel_paths = pd.read_csv('https://raw.githubusercontent.com/jerguy1928/refugee_map/master/Movements.csv')
 
 #sorting the data (my functions require the data to be sorted but my data isn't sorted)
 travel_paths.head()
